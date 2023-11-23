@@ -27,5 +27,30 @@
             <input type="range" min="0" max="255" id="B-input" class="color-input" oninput="newColor()">
         </div>
     </section>
+    <section id="gradient" class="flex-center">
+        <h2>CSS Gradient</h2>
+        <div class="quarterwidth flex-center margin">
+            <p>Color 1</p>
+            <div id="gradient-deg"></div>
+            <input type="range" min="0" max="255" id="R0input" class="color-input" oninput="newGradient()">
+            <input type="range" min="0" max="255" id="G0input" class="color-input" oninput="newGradient()">
+            <input type="range" min="0" max="255" id="B0input" class="color-input" oninput="newGradient()">
+        </div>
+        <div class="quarterwidth flex-center margin">
+            <p>Color 2</p>
+            <div id="gradient-deg"></div>
+            <input type="range" min="0" max="255" id="R1input" class="color-input" oninput="newGradient()">
+            <input type="range" min="0" max="255" id="G1input" class="color-input" oninput="newGradient()">
+            <input type="range" min="0" max="255" id="B1input" class="color-input" oninput="newGradient()">
+        </div>
+        <div class="quarterwidth flex-center margin">
+            <p>Grados</p>
+            <div id="gradient-deg"></div>
+            <input type="range" min="0" max="255" id="Deg-input" class="color-input" oninput="newGradient()">
+        </div>
+        <!-- <h2 class="margin">background: linear-gradient(90deg, rgb(0, 255, 0), rgb(0, 255, 0));</h2> -->
+    </section>
+    <script src="/Scripts/gradient.js"></script>
+
 </body>
 </html>

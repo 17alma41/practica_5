@@ -6,3 +6,4 @@ function newColor(){
 
     color_square.style.background = `rgb(${R.value}, ${G.value}, ${B.value})`
 }
+

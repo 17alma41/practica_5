@@ -95,3 +95,11 @@ section{
 .color-input{
     width: 100%;
 }
+
+.margin{
+    margin: 15px;
+}
+
+/* #gradient{
+    background: linear-gradient(90deg, red, rgb(0, 255, 0));
+} */
