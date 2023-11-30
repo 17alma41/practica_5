@@ -7,8 +7,8 @@ function newGradient(){
     const B1 = document.querySelector("#B1input").value
     const deg = document.querySelector("#Deg-input").value
     
-    console.log(R0, G0, B0, R1, B1, G1)
+    // console.log(R0, G0, B0, R1, B1, G1)
     const seccion = document.querySelector("#gradient")
-    console.log(seccion)
+    // console.log(seccion)
     seccion.style.background = `linear-gradient(${deg}deg, rgb(${R0}, ${G0}, ${B0}), rgb(${R1}, ${G1}, ${B1}))`
 }
