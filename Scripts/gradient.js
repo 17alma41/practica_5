@@ -10,5 +10,5 @@ function newGradient(){
     console.log(R0, G0, B0, R1, B1, G1)
     const seccion = document.querySelector("#gradient")
     console.log(seccion)
-    seccion.style.background = `linear-gradient(${deg}deg, rgb(${R0}, ${G0}, ${B0}), rgb(${R1}, ${G1}, ${B1}));`
+    seccion.style.background = `linear-gradient(${deg}deg, rgb(${R0}, ${G0}, ${B0}), rgb(${R1}, ${G1}, ${B1}))`
 }
